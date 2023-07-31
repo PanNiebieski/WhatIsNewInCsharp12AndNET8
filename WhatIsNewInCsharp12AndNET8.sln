@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-Random-Shared-Shuffle", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Using-directives-for-additional-types", "01-Using-directives-for-additional-types\01-Using-directives-for-additional-types.csproj", "{6C34FE0C-4857-4F0E-8AC8-025000A7479F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-InlineArrays", "10-InlineArrays\10-InlineArrays.csproj", "{3CF70814-8383-444F-B5BB-71EA96CF8AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-InlineArrays-Benchmark", "10-InlineArrays-Benchmark\10-InlineArrays-Benchmark.csproj", "{3BBECE19-AD87-4250-9184-00192AC957A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{6C34FE0C-4857-4F0E-8AC8-025000A7479F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C34FE0C-4857-4F0E-8AC8-025000A7479F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C34FE0C-4857-4F0E-8AC8-025000A7479F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF70814-8383-444F-B5BB-71EA96CF8AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF70814-8383-444F-B5BB-71EA96CF8AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF70814-8383-444F-B5BB-71EA96CF8AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF70814-8383-444F-B5BB-71EA96CF8AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBECE19-AD87-4250-9184-00192AC957A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBECE19-AD87-4250-9184-00192AC957A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBECE19-AD87-4250-9184-00192AC957A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBECE19-AD87-4250-9184-00192AC957A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
