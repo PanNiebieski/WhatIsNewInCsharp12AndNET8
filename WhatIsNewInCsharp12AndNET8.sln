@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-InlineArrays", "10-Inlin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-InlineArrays-Benchmark", "10-InlineArrays-Benchmark\10-InlineArrays-Benchmark.csproj", "{3BBECE19-AD87-4250-9184-00192AC957A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-MetricCollector", "12-MetricCollector\12-MetricCollector.csproj", "{0EDAA2EF-B6E9-485F-9001-4DA73576800D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-ValidatingSettingsASPCore", "11-ValidatingSettingsASPCore\11-ValidatingSettingsASPCore.csproj", "{663824F4-BF00-44F0-A16A-F7D0421EA2B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{3BBECE19-AD87-4250-9184-00192AC957A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BBECE19-AD87-4250-9184-00192AC957A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BBECE19-AD87-4250-9184-00192AC957A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDAA2EF-B6E9-485F-9001-4DA73576800D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDAA2EF-B6E9-485F-9001-4DA73576800D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDAA2EF-B6E9-485F-9001-4DA73576800D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDAA2EF-B6E9-485F-9001-4DA73576800D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663824F4-BF00-44F0-A16A-F7D0421EA2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663824F4-BF00-44F0-A16A-F7D0421EA2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663824F4-BF00-44F0-A16A-F7D0421EA2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663824F4-BF00-44F0-A16A-F7D0421EA2B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

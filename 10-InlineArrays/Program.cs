@@ -17,12 +17,12 @@ var myarray = new MyArray<int>();
 
 for (int i = 0; i < 10; i++)
 {
-    array[i] = i;
+    myarray[i] = i;
 }
 
 for (int i = 0; i < 10; i++)
 {
-    Console.WriteLine(array[i]);
+    Console.WriteLine(myarray[i]);
 }
 
 
