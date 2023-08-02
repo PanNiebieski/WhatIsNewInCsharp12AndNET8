@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-MetricCollector", "12-Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-ValidatingSettingsASPCore", "11-ValidatingSettingsASPCore\11-ValidatingSettingsASPCore.csproj", "{663824F4-BF00-44F0-A16A-F7D0421EA2B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-DashBoardWithASPNET8", "13-DashBoardWithASPNET8\13-DashBoardWithASPNET8.csproj", "{2211602F-32D6-4B98-B8C7-2748D9A1DC3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{663824F4-BF00-44F0-A16A-F7D0421EA2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{663824F4-BF00-44F0-A16A-F7D0421EA2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{663824F4-BF00-44F0-A16A-F7D0421EA2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2211602F-32D6-4B98-B8C7-2748D9A1DC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2211602F-32D6-4B98-B8C7-2748D9A1DC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2211602F-32D6-4B98-B8C7-2748D9A1DC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2211602F-32D6-4B98-B8C7-2748D9A1DC3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

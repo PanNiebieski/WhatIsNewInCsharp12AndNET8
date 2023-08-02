@@ -1,0 +1,11 @@
+@_13_DashBoardWithASPNET8_HostAddress = http://localhost:5210
+
+GET {{_13_DashBoardWithASPNET8_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{_13_DashBoardWithASPNET8_HostAddress}}/todos/1
+Accept: application/json
+
+###
