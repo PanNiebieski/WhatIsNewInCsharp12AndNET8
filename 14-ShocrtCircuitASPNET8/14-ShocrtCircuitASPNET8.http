@@ -1,0 +1,20 @@
+@_14_ShocrtCircuitASPNET8_HostAddress = http://localhost:5043
+
+GET {{_14_ShocrtCircuitASPNET8_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{_14_ShocrtCircuitASPNET8_HostAddress}}/todos/1
+Accept: application/json
+
+###
+
+GET {{_14_ShocrtCircuitASPNET8_HostAddress}}/htmlpage.html
+Accept: text/html
+
+###
+
+GET {{_14_ShocrtCircuitASPNET8_HostAddress}}/robot.txt
+
+###

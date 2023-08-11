@@ -90,5 +90,5 @@ public class Benchmarks
 [InlineArray(1000)]
 public struct MyArray<T>
 {
-    private readonly T _element;
+    private T _element;
 }

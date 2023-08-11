@@ -29,5 +29,5 @@ for (int i = 0; i < 10; i++)
 [InlineArray(10)]
 public struct MyArray<T>
 {
-    private readonly T _element;
+    private T _element;
 }
