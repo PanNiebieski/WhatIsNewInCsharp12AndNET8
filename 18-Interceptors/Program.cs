@@ -5,11 +5,15 @@ ex.MyMethod("Check");
 ex.MyMethod("Check");
 ex.MyMethod("Check");
 ex.MyMethod("Check");
+ex.MyMethod("Check");
+
 
 public static class Code
 {
     [InterceptsLocation("C:\\Users\\Admin\\source\\repos\\WhatIsNewInCsharp12AndNET8\\18-Interceptors\\Program.cs",
         line: 5, column: 4)]
+    [InterceptsLocation("C:\\Users\\Admin\\source\\repos\\WhatIsNewInCsharp12AndNET8\\18-Interceptors\\Program.cs",
+        line: 7, column: 4)]
     public static void MyInterceptorMethod(this Example ex, string param)
     {
         Console.WriteLine($"MyInterceptorMethod {param}");
