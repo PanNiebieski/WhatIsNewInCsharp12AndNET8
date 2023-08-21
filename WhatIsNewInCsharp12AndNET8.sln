@@ -33,13 +33,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-DashBoardWithASPNET8", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14-ShocrtCircuitASPNET8", "14-ShocrtCircuitASPNET8\14-ShocrtCircuitASPNET8.csproj", "{4BD8D70A-C934-4A8E-8AAF-A7AD98C7A39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-JSON", "15-JSON\15-JSON.csproj", "{C5FCD487-6431-4E59-B894-70E57B0C990D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15-JSON", "15-JSON\15-JSON.csproj", "{C5FCD487-6431-4E59-B894-70E57B0C990D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-IHostedLifecycleService", "16-IHostedLifecycleService\16-IHostedLifecycleService.csproj", "{F6EDEB3F-D486-488B-AA54-6B4A09BBF99C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16-IHostedLifecycleService", "16-IHostedLifecycleService\16-IHostedLifecycleService.csproj", "{F6EDEB3F-D486-488B-AA54-6B4A09BBF99C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-KeyedServicesSupport", "17-KeyedServicesSupport\17-KeyedServicesSupport.csproj", "{1927E163-7F32-43EE-B658-17A1ACBE83B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17-KeyedServicesSupport", "17-KeyedServicesSupport\17-KeyedServicesSupport.csproj", "{1927E163-7F32-43EE-B658-17A1ACBE83B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Interceptors", "18-Interceptors\18-Interceptors.csproj", "{18A0BFC2-B333-4C78-BC5D-DD02102B1EB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18-Interceptors", "18-Interceptors\18-Interceptors.csproj", "{18A0BFC2-B333-4C78-BC5D-DD02102B1EB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16-BackgrundServiceFixed", "16-BackgrundServiceFixed\16-BackgrundServiceFixed.csproj", "{DCB799A8-03F0-4669-850B-114D7B83D622}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{18A0BFC2-B333-4C78-BC5D-DD02102B1EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A0BFC2-B333-4C78-BC5D-DD02102B1EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A0BFC2-B333-4C78-BC5D-DD02102B1EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB799A8-03F0-4669-850B-114D7B83D622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB799A8-03F0-4669-850B-114D7B83D622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB799A8-03F0-4669-850B-114D7B83D622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB799A8-03F0-4669-850B-114D7B83D622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
