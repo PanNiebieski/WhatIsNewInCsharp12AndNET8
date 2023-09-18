@@ -2,5 +2,8 @@
 
 GET {{_11_ValidatingSettingsASPCore_HostAddress}}/config/
 Accept: application/json
+###
 
+GET {{_11_ValidatingSettingsASPCore_HostAddress}}/config/2
+Accept: application/json
 ###

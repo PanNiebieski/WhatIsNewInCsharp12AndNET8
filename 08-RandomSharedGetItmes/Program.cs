@@ -1,6 +1,4 @@
 ﻿
-
-
 ReadOnlySpan<Card> allYugiohCards = new[]
 {
         new Card("Gravekeeper's Priestess",

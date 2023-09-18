@@ -30,14 +30,15 @@ public class ExampleLoopedBGService : BackgroundService
 }
 
 
+
+
+
 public class ExampleBGService : BackgroundService
 {
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        while (!stoppingToken.IsCancellationRequested)
-        {
+        if (!stoppingToken.IsCancellationRequested)
             Console.WriteLine("Just Once");
-        }
     }
 }
 

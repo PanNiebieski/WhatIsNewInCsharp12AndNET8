@@ -22,12 +22,21 @@ Assert.Null(collector.LastMeasurement);
 
 counter.Add(3);
 
+Assert.Single(collector.GetMeasurementSnapshot());
+
+counter.Add(21);
+counter.Add(48);
+
 // verify the update was recorded
 Assert.Equal(counter, collector.Instrument);
 Assert.NotNull(collector.LastMeasurement);
 
-Assert.Single(collector.GetMeasurementSnapshot());
 Assert.Same(collector.GetMeasurementSnapshot().Last(), collector.LastMeasurement);
-Assert.Equal(3, collector.LastMeasurement.Value);
+Assert.Equal(48, collector.LastMeasurement.Value);
 Assert.Empty(collector.LastMeasurement.Tags);
 Assert.Equal(now, collector.LastMeasurement.Timestamp);
+
+foreach (var item in collector.GetMeasurementSnapshot())
+{
+    Console.WriteLine(item.Value);
+}

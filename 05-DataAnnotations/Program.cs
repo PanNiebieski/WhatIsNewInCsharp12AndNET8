@@ -2,8 +2,7 @@
 
 Console.WriteLine("Hello, World!");
 
-
-class s
+class S
 {
     [Base64String]
     public required string Base64Text { get; set; }

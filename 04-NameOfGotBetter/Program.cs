@@ -1,6 +1,4 @@
-﻿using System;
-
-
+﻿
 Console.WriteLine(Class.NameOfNumberMaxValue);
 Console.WriteLine(Class.NameOfNumberMinValue);
 Console.WriteLine(Class.NameOfTextLength);

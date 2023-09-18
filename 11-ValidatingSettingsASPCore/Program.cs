@@ -13,7 +13,8 @@ builder.Services.AddOptions<OtherOptions>()
     .Bind(config.GetSection(OtherOptions.SectionName));
 
 
-//builder.Services.AddSingleton<IValidateOptions<OtherOptions>, OtherOptionsValidator>();
+builder.Services.AddSingleton<IValidateOptions<OtherOptions>,
+    OtherOptionsValidator>();
 
 var app = builder.Build();
 
@@ -22,6 +23,7 @@ var todosApi = app.MapGroup("/config");
 
 todosApi.MapGet("/", (IOptions<ExampleOptions> op) => { return op.Value; });
 
+todosApi.MapGet("/2", (IOptions<OtherOptions> op) => { return op.Value; });
 
 app.Run();
 

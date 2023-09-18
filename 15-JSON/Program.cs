@@ -42,6 +42,8 @@ bool same = JsonNode.DeepEquals(node, other); // true
 
 public record MyRecord(int value);
 
+
+
 [JsonSerializable(typeof(MyRecord))]
 public partial class MyContext : JsonSerializerContext { }
 

@@ -1,43 +1,47 @@
-using Microsoft.Extensions.Caching.Memory;
+
+using Microsoft.AspNetCore.Mvc;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddSingleton<BigCacheConsumer>();
-builder.Services.AddSingleton<SmallCacheConsumer>();
+builder.Services.AddSingleton<BigConsumer>();
+builder.Services.AddSingleton<SmallConsumer>();
 
-builder.Services.AddKeyedSingleton<IMemoryCache, BigCache>("big");
-builder.Services.AddKeyedSingleton<IMemoryCache, SmallCache>("small");
+builder.Services.AddKeyedSingleton
+    <IMyDictionary, BigDictionary>("big");
+builder.Services.AddKeyedSingleton
+    <IMyDictionary, SmallDictionary>("small");
+builder.Services.AddKeyedSingleton
+    <IMyDictionary, DifDictionary>("dif");
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.MapGet("/big", (BigConsumer data) => data.GetData());
+app.MapGet("/small", (SmallConsumer data) => data.GetData());
 
-app.UseHttpsRedirection();
 
-app.MapGet("/big", (BigCacheConsumer data) => data.GetData());
-app.MapGet("/small", (SmallCacheConsumer data) => data.GetData());
+app.MapGet("/dif",
+    ([FromServices] IServiceProvider keyedServiceProvider) =>
+    keyedServiceProvider.
+        GetRequiredKeyedService<IMyDictionary>("dif").Get("data"));
 
 app.Run();
 
 
-class BigCacheConsumer([FromKeyedServices("big")] IMemoryCache cache)
+class BigConsumer([FromKeyedServices("big")] IMyDictionary cache)
 {
-    public object? GetData() => cache.Get("data");
+    public string? GetData() => cache.Get("data");
 }
 
-class SmallCacheConsumer([FromKeyedServices("small")] IMemoryCache cache)
+class SmallConsumer([FromKeyedServices("small")] IMyDictionary cache)
 {
-    public object? GetData() => cache.Get("data");
+    public string? GetData() => cache.Get("data");
 }
 
-//class SmallCacheConsumer(IKeyedServiceProvider keyedServiceProvider)
-//{
-//    public object? GetData() => keyedServiceProvider.GetRequiredKeyedService<IMemoryCache>("small");
-//}
+
+public interface IMyDictionary
+{
+    string Get(string key);
+}
