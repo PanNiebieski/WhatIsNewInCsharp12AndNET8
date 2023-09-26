@@ -43,6 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18-Interceptors", "18-Inter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16-BackgrundServiceFixed", "16-BackgrundServiceFixed\16-BackgrundServiceFixed.csproj", "{DCB799A8-03F0-4669-850B-114D7B83D622}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-BetterThanReflection", "19-BetterThanReflection\19-BetterThanReflection.csproj", "{A85F31D2-E500-4A85-B3AA-A0D7A6ADEA8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50AF5E1A-C737-4077-A121-0B7B9FF7DAF5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +136,10 @@ Global
 		{DCB799A8-03F0-4669-850B-114D7B83D622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCB799A8-03F0-4669-850B-114D7B83D622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCB799A8-03F0-4669-850B-114D7B83D622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85F31D2-E500-4A85-B3AA-A0D7A6ADEA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85F31D2-E500-4A85-B3AA-A0D7A6ADEA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85F31D2-E500-4A85-B3AA-A0D7A6ADEA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85F31D2-E500-4A85-B3AA-A0D7A6ADEA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
